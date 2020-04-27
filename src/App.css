@@ -1,0 +1,256 @@
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+.body {
+  position: absolute;
+  left: 0%;
+  height: 100%;
+  width: 99%;
+  transition: 0.5s all;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 500;
+  background-image: url('');
+  background-size: 100% 100%;
+}
+
+.backgr {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.sol {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 97.5%;
+  font-weight: 600;
+}
+
+button.solButt {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #7B3311;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.solButt:active {
+  border: none;
+  outline: none;
+}
+
+.t1 {
+  position: absolute;
+  left: 0%;
+  top: 22%;
+  width: 100%;
+  max-width: 95%;
+  left: 1.25%;
+  padding: 1%;
+  background: rgba(76, 175, 80, 0.4);
+  font-weight: 600;
+}
+
+b {
+  color: #7B3311;
+}
+
+.img1 {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 20%;
+  width: 10%;
+}
+
+.img2 {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  height: 20%;
+  width: 10%;
+}
+
+.img3 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  height: 20%;
+  width: 10%;
+}
+
+.img4 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  height: 20%;
+  width: 10%;
+}
+
+.img5 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  height: 20%;
+  width: 10%;
+}
+
+.img6 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  height: 20%;
+  width: 10%;
+}
+
+.img7 {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  height: 20%;
+  width: 10%;
+}
+
+.img8 {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  height: 20%;
+  width: 10%;
+}
+
+.img9 {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  height: 20%;
+  width: 10%;
+}
+
+.img10 {
+  position: absolute;
+  top: 40%;
+  left: 90%;
+  height: 20%;
+  width: 10%;
+}
+
+.sel1 {
+  position: absolute;
+  left: 0%;
+  top: 60%;
+  width: 10%;
+}
+
+.sel2 {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  width: 10%;
+}
+
+.sel3 {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  width: 10%;
+}
+
+.sel4 {
+  position: absolute;
+  left: 30%;
+  top: 60%;
+  width: 10%;
+}
+
+.sel5 {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  width: 10%;
+}
+
+.sel6 {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  width: 10%;
+}
+
+.sel7 {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  width: 10%;
+}
+
+.sel8 {
+  position: absolute;
+  left: 70%;
+  top: 60%;
+  width: 10%;
+}
+
+.sel9 {
+  position: absolute;
+  left: 80%;
+  top: 60%;
+  width: 10%;
+}
+
+.sel10 {
+  position: absolute;
+  left: 90%;
+  top: 60%;
+  width: 10%;
+}
+
+.sibl {
+  position: absolute;
+}
+
+select {
+  position: absolute;
+  top: 55%;
+  width: 10%;
+  background: #7B3311;
+  border: none;
+  top: 40%;
+  border-radius: 13%;
+}
+
+select:focus, select:active, select:hover {
+  background: #7B3311 !important;
+  color: white;
+  outline: 0px solid #6B3300 !important;
+  border: 0px solid #6B3300 !important;
+}
+
+option:focus, option:active, option:hover {
+  background: #7B3311 !important;
+  color: white;
+  outline: 0px solid #6B3300 !important;
+  border: 0px solid #6B3300 !important;
+}
+
+img {
+  transition: 0.5s all;
+}
+
+img:hover {
+  transition: 0.5s all;
+  transform: scale(1.2, 1.2) translateY(-8.5%);
+  z-index: 2;
+}
